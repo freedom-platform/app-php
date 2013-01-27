@@ -1,0 +1,25 @@
+{
+    "extends": [
+        "dev"
+    ],
+    "name": "freedom-platform-app-php",
+    "version": "0.1.0",
+    "pm": "sm",
+    "mappings": {
+        "php": [
+            "sm",
+            "http://www.php.net/distributions/php-5.4.11.tar.gz",
+            {
+                "descriptor": {
+                    "pm": "make",
+                    "bin": {
+                        "php": "./sapi/cli/php"
+                    }
+                }
+            }
+        ]
+    },
+    "devMappings": {
+        "dev": "github.com/freedom-platform/dev/~0.1.0"
+    }
+}
