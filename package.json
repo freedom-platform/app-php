@@ -5,6 +5,9 @@
     "name": "freedom-platform-app-php",
     "version": "0.1.0",
     "pm": "sm",
+    "bin": {
+        "php": "./.sm/bin/php"
+    },
     "mappings": {
         "php": [
             "sm",

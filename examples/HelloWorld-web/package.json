@@ -1,0 +1,11 @@
+{
+    "extends": [
+        "app-php"
+    ],
+    "name": "HelloWorld-web",
+    "version": "0.1.0",
+    "pm": "sm",
+    "devMappings": {
+        "app-php": "github.com/freedom-platform/app-php/~0.1.0"
+    }
+}

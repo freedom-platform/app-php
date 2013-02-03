@@ -1,0 +1,11 @@
+{
+    "extends": [
+        "dev"
+    ],
+    "devMappings": {
+        "dev": "github.com/freedom-platform/dev/~0.1.0"
+    },
+    "scripts": {
+    	"run": "$__DIRNAME/run.sh"
+    }
+}
